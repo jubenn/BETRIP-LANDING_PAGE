@@ -1,1 +1,63 @@
-//esto es un comentario
+
+
+<!--##############################  MARX ######################################################-->
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --color-primary: #47557e;
+    --color-title: #000;
+    --align-title: left;
+    --padding-container: 85px 0;
+    --width-container:  85%;
+    --max-width-container:  1000px;
+    --color-btn: #47557e;
+    --text-btn: #fff;
+    --padding-btn: 20px 40px;
+    --height-shape: 288px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    opacity: 1;
+    background-image:  radial-gradient(#47557e 0.9px, transparent 0.9px), radial-gradient(#47557e 0.9px, #f4f4f4 0.9px); 
+    background-size: 36px 36px;
+    background-position: 0 0,18px 18px;
+}
+
+.container{
+    width: var(--width-container);
+    max-width: var(--max-width-container);
+    padding: var(--padding-container); 
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding:20px;
+    background: #47557e;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+} 
+
+.menu li{
+    display: block;
+    text-align: left;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+
+.menu li a:hover{
+    background: #ccc;
+}
+<!--##############################  MARX ######################################################-->
