@@ -1,0 +1,22 @@
+
+.bd-navbar{
+    padding: 0.75rem 0;
+    background-color: #47557e;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.whatis_picture1{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit:cover;
+
+}
+.downloadLinks{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
