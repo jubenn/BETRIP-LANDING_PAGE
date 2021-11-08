@@ -15,13 +15,13 @@
     <header class="navbar navbar-expand-lg navbar-dark bd-navbar" >
         <nav class="container">
             <a class="navbar-brand" href="#">
-                <img src="Images/BeTripLogo.svg" alt="" width="90" height="45">
+                <img src="Assets/BeTripLogo.svg" alt="" width="90" height="45">
             </a>
             <button class="navbar-toggler" data-toggle ="collapse" data-target="menuList">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="menuList">
-                <div class="navbar-nav">
+                <div class="navbar-nav" style="color: white;">
                     <a href="#" class="nav-link">What is beTrip?</a>
                     <a href="#" class="nav-link">Services</a>
                     <a href="#" class="nav-link">Download</a>
@@ -40,7 +40,7 @@
 
 
         <!--HeroClass-->
-       <div class="row text-center" style="padding: 75px;">
+       <div class="row text-center container-fluid" style="padding: 75px;">
 
            <div class="col-md-6 my-auto">
                 <h1 class="fw-bold" style="font-size: 45px; padding-bottom: 20x;">Viaja de manera segura dentro y fuera de tu ciudad!</h1>
@@ -48,13 +48,15 @@
                 <button class="btn btn-success">Comienza a viajar</button>
            </div>
            <div class="col-md-6">
-               <img style="size-adjust: 100%;" src="Images/BeTripHeroe.png">
+               <img class="img-fluid" style="max-width:100%;" src="Assets/BeTripHeroe.png">
            </div>
        </div>
+
        <!--What is BeTrip-->
-       <div class = "row text-center">
-           <div class="col-md-12 my-auto" style="padding-top: 100px; border-bottom: 2px solid #ccc;">
-                <img src="Images/WhatIsBeTrip.svg" class="whatis_picture1" width="10%">
+       
+       <div id = "WhatIs" class = " row text-center">
+           <div class="col-md-12 my-auto" style="padding-top: 100px;">
+                <img src="Assets/WhatIsBeTrip.svg" class="whatis_picture1" width="10%">
                 <h2 class="fs-2 fw-bold" style="font-size: 35px; padding: 25px;">¿Que es beTrip?</h2>
                 <p class="fs-5 fst-italic" style="padding-bottom: 35px;">
                     "Somos una aplicación que ofrece el servicio de taxis colectivos mediante una plataforma moderna en la cual podrás navegar y elegir tus rutas para viajar de una manera rápida, cómoda y, sobretodo, económica."
@@ -63,7 +65,7 @@
        </div>
 
        <!--Our Services-->
-       <h2 class="fw-bold text-center" style="font-size: 35px; padding-top: 35px;">Nuestros servicios</h2>
+       <h2 class="container fw-bold text-center" style="font-size: 35px; padding-top: 35px;">Nuestros servicios</h2>
 
         <div class="row text-center" style="padding: 50px;">
           
@@ -74,7 +76,7 @@
                 </p>
            </div>
            <div class="col-md-6 my-auto">
-            <img src="Images/insideCity.svg" class ="insideCity_picture" width="75%">
+             <img src="Assets/insideCity.svg" class ="insideCity_picture" width="75%">
            </div>
 
        </div>
@@ -83,7 +85,7 @@
        <div class="row text-center" style="padding: 50px; padding-bottom: 75px; border-bottom: 2px solid #ccc;">
 
            <div class="col-md-6 my-auto">
-            <img src="Images/outsideCity.svg" width="85%">
+            <img src="Assets/outsideCity.svg" width="85%">
            </div>
 
            
@@ -97,30 +99,116 @@
        </div>
 
         <!--Download the app-->
-        <div class = "row text-center">
+        <div id="DownloadSection" class = "row text-center">
             <div class="col-md-12" style="padding-top: 100px; border-bottom: 2px solid #ccc;">
                  <h2 class="fw-bold" style="font-size: 45px; padding: 25px;">Empieza a programar tus viajes desde cualquier lugar</h2>
                  <p class="fs-5" style="padding: 30px;">
                     Puedes programar tus viajes desde cualquier dispotivo, de manera sencilla y gratuita.
                  </p>
                  <div> 
-                     <a href="#"> <img class="img-fluid" style="width: 150px; align-items: center; padding-right: 15px;" src="Images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"> </a>
-                     <a href="#"> <img class="img-fluid" style="width: 185px; align-items: center; padding-right: 15px;" src="Images/google-play-badge (1).png"> </a>
-                     <a href="#"> <img class="img-fluid" style="width: 175px; align-items: center; padding-right: 15px;" src="Images/kisspng-microsoft-store-windows-10-android-app-store-logo-5b46fe0b6b4ed7.7289881115313792114395.png"> </a>
+                     <a href="#"> <img class="img-fluid" style="width: 150px; align-items: center; padding-right: 15px;" src="Assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"> </a>
+                     <a href="#"> <img class="img-fluid" style="width: 185px; align-items: center; padding-right: 15px;" src="Assets/google-play-badge (1).png"> </a>
+                     <a href="#"> <img class="img-fluid" style="width: 175px; align-items: center; padding-right: 15px;" src="Assets/kisspng-microsoft-store-windows-10-android-app-store-logo-5b46fe0b6b4ed7.7289881115313792114395.png"> </a>
                  </div>
                  
                 
             </div>
         </div>
 
+        <!--Our team-->
 
+        <h2 class="container fw-bold text-center" style="font-size: 35px; padding: 50px;">¿Quienes somos?</h2>
+        <p class="fs-5 " style="padding-bottom: 35px; text-align: center;">Somos TECApps Service, empresa formada por alumnos de la carrera de Ingenieria de Software de la UPC. Nuestra mision es cumplir con las necesidades de las personas con medidas tecnológicas a través de plataformas de software.  </p>
+
+        <div class="row text-center" style="padding: px;">
+          
+            <div class="col-md-auto my-auto ">
+                <div class="card border-light" style="width: 15rem;">
+                    <img class="card-img-top" src="Assets/Team/EduardoFlores.png" style="border-radius: 50%;">
+                    <div class="card-body">
+                      <h5 class="card-title">Eduardo Flores</h5>
+                      <p class="card-text fs-6">"Soy alguien dedicado y entusiasta. Además, me gusta crear la arquitectura de los programas de computación y dar relación de las funciones que contiene el programa."</p>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="col-md-auto my-auto">
+                 <div class="card border-light" style="width: 15rem;">
+                    <img class="card-img-top" src="Assets/Team/FulgencioVilva.png" style="border-radius: 50%;">
+                    <div class="card-body">
+                         <h5 class="card-title">Fulgencio Vilca</h5>
+                        <p class="card-text fs-6">"Me considero una persona responsable que está en constante aprendizaje. Mis conocimientos abarcan los lenguajes de programación de C++, C# y un poco de Java."</p>
+                    </div>
+             </div>
+           </div>
+
+           <div class="col-md-auto my-auto">
+            <div class="card border-light" style="width: 15rem;">
+               <img class="card-img-top" src="Assets/Team/DiegoOsorio.png" style="border-radius: 50%;">
+               <div class="card-body">
+                 <h5 class="card-title">Diego Osorio</h5>
+                 <p class="card-text fs-6">"Durante mi secundaria descubrí mi talento y gusto por la tecnología ya que en mi colegio nos hacían mucho hincapié en eso y el enfoque de estudios me motivó a estudiar esta carrera."</p>
+               </div>
+            </div>
+          </div>
+
+           <div class="col-md-auto my-auto">
+            <div class="card border-light" style="width: 15rem;">
+                <img class="card-img-top" src="Assets/Team/JorgeTupia.png" style="border-radius: 50%;">
+                <div class="card-body">
+                  <h5 class="card-title">Jorge Tuppia</h5>
+                  <p class="card-text fs-6">"Me gusta el trabajo en grupo coordinado. En cuanto a conocimientos de software, se me facilita el manejo de árboles y grafos, además de diseño y administración de base de datos."</p>
+                </div>
+             </div>
+           </div>
+           <div class="col-md-auto my-auto">
+            <div class="card border-light" style="width: 15rem;">
+                <img class="card-img-top" src="Assets/Team/JubenCacha.png" style="border-radius: 50%;">
+                <div class="card-body">
+                  <h5 class="card-title">Juben Cacha</h5>
+                  <p class="card-text fs-6">"Me considero una persona que se adapta a cualquier entorno de trabajo y que le gusta siempre aportar ideas para facilitar la comunicación entre todos los miembros de un equipo."</p>
+                </div>
+             </div>
+           </div>
+                     
+            
+           </div>
+       </div>
+
+
+       
     </main>
 
 
     <!--Footer-->
-    <footer>
+    <footer class="text-center text-white" style="background-color: #47557e">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                
+                <a class="btn btn-link btn-floating  m-1" href="#!" role="button">
+                    <img src="Assets/icon_facebook.svg">
+                </a>
+                <a class="btn btn-link btn-floating  m-1" href="#!" role="button">
+                    <img src="Assets/icon_instagram.svg">
+                </a>
+                <a class="btn btn-link btn-floating  m-1" href="#!" role="button">
+                    <img src="Assets/icon_twitter.svg">
+                </a>
+                <a class="btn btn-link btn-floating  m-1" href="#!" role="button">
+                    <img src="Assets/icon_youtube.svg">
+                </a>
 
-    </footer>
+          
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Sitio web creado por © TECApps Service
+        </div>
+        <!-- Copyright -->
+      </footer>
 
  
 

@@ -20,3 +20,12 @@
     padding-top: 30px;
     flex-wrap: wrap;
 }
+
+#WhatIs{
+    background-color: rgb(218, 218, 218);
+}
+
+#DownloadSection{
+    background-color: #47557e;
+    color: white;
+}
