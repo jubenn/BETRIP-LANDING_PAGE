@@ -1,2 +1,2 @@
 BeTrip
-App de ofrece el servicio de taxis colectivos.
+App que ofrece el servicio de taxis colectivos.
