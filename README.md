@@ -1,1 +1,2 @@
-# BETRIP-LANDING_PAGE
+BeTrip
+App de ofrece el servicio de taxis colectivos.
